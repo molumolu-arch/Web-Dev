@@ -1,0 +1,207 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #F0F2F5;
+    position: relative;
+    height: 115vh;
+    overflow-x: hidden;
+}
+
+#container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 15vw;
+    top: 10vh;
+    margin-right: 30vw;
+    margin-top: auto;
+}
+
+#logo {
+    height: 100px;
+    margin: -20px;
+    position: relative;
+    left:20px;
+    margin-top: 50px;
+}
+
+
+#title > p{
+    margin-top: auto;
+    width: 70%;
+    font-size: 20px;
+}
+
+#title {
+    position:relative;
+    left:1vw;
+}
+
+#login {
+    position: relative;
+    background-color: #FFFF;
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    top: 2vh;
+    padding: 10px 10px 20px 10px;
+    box-shadow: 0 5px 5px 3px gainsboro;
+}
+#forgot {
+    margin: 18px 0;
+    text-decoration: none;
+    color: #1877F2;
+    font-size: 15px;
+}
+
+#forgot:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+hr {
+    width: 95%;
+    height: 0.1%;
+    background-color: rgb(194,193,193);
+    border: none;
+    margin: 5px;
+}
+
+#login > input[type=text], #login >input[type=password] {
+    height: 35%;
+    margin: 8px 0;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    width: 95%;
+    border: 1.5px solid #EEEFF0;
+}
+
+#login > input[type=password]{
+    margin-bottom: 12px;
+}
+
+#login > input[type="text"]:focus, #login > input[type=password]:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0 0 5px #719ECE;
+    caret-color: blue;
+}
+
+#login-button {
+    background-color: #1877F2;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    height: 120px;
+    font-weight: bold;
+    width: 95%;
+}
+
+#login-button:hover {
+    cursor: pointer;
+    background-color: #166FE5;
+}
+
+#create-button {
+    background-color: #42B72A;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 100px;
+    width: 60%;
+    margin-top: 20px;
+    border: none;
+}
+
+#create-button:hover {
+    background-color: #36A420 ;
+    cursor: pointer
+}
+
+#login-bottom {
+    font-size: 15px;
+    position: absolute;
+    bottom: -55px;
+    text-align: center;
+}
+
+footer {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    color: #A6A8AA;
+    font-size: 12px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    word-spacing: 12px;
+    line-height: 20px;
+    padding: 20px 100px 20px 100px;
+}
+
+#plus-button {
+    width: 30px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media screen and (max-width:1114px){
+    #title {
+        left: 70px;
+        margin-right: 22vw;
+    }
+    #login {
+        right: 30px;
+    }
+    
+}
+@media screen and (max-width:900px) {
+    body{
+        height: 150vh;
+    }
+
+    #container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #title {
+        margin-right: 0;
+        align-items: center;
+        left: 0;
+        top: 20px;
+        margin-bottom: 100px;
+    }
+
+    #login{
+        position: relative;
+    }
+
+    #footer {
+        position: absolute;
+        padding: 20px;
+        width: 100vw;
+    }
+}
+
+@media screen and (max-height: 670px) {
+    footer {
+        position: relative;
+        top: 100px;
+    }
+}
