@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Ubuntu:wght@300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+
+}
+
+body {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    text-align:  center;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 2vw;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+
+}
+
+.login form .insta-logo {
+    width: 200px;
+    margin: 20px 0;
+}
+
+.input {
+    width: 90%;
+    padding: .6rem;
+    border-radius:  8px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    margin: 3px;
+}
+
+.login-button {
+    width: 97%;
+    padding: 10px .4rem;
+    font-weight: 700;
+    background-color: rgb(1,182,255);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0px;
+    color: white;
+}
+
+.login-button:hover {
+    background-color: rgb(1, 110, 182);
+}
+
+#or {
+    margin:20px 0;
+}
+
+#or:before, #or:after {
+    content: '---------------------------';
+    color: rgba(128,128,128,.7);
+    margin: 0 10px;
+
+}
+
+.fb-login{
+    font-weight: 700;
+    font-size: 95%;
+    color: rgb(0, 136, 255);
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.sign-up {
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.get-app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.store{
+    display:flex;
+    align-items: center;
+    margin:auto;
+}
+#play {
+    width: 160px;
+    border-radius: 8px;
+
+}
+
+#apple {
+    width: 135px;
+    border-radius: 8px;
+}
+#facebook_logo {
+    width: 20px;
+    margin-right: 10px;
+}
+.forgot:hover {
+    text-decoration: underline;
+}
