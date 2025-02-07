@@ -1,0 +1,126 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Poppings', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: 100%;
+}
+
+.todo-app {
+    width:100%;
+    max-width: 540px;
+    background: white;
+    margin: 100px auto 100px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.todo-app h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius:30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+#list li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+#list li:hover{
+    background: #edeef0;
+    border-radius: 20px;
+    
+}
+
+#list li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 8px;
+    left: 8px;
+}
+
+#list li.checked {
+    color:#555;
+    text-decoration: line-through;
+}
+
+#list li.checked::before {
+    background-image: url(checked.png);
+}
+
+
+
+#input {
+    width: 75%;
+    flex: 1;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+#button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 16px;
+
+
+}
+
+#button:hover {
+    cursor: pointer;
+    background: #da4c3c;
+}
+
+#icon {
+    height:30px;
+    margin-left: 10px; 
+}
+
+#list li span{
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius:50%;
+}
+
+#list li span:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+}
