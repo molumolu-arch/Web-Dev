@@ -1,0 +1,24 @@
+<section class="nav-bar">
+    <a href="#">Home</a>
+    <p> | </p>
+    <a href="#">Shop</a>
+    <p> | </p>
+    <a href="#">Characters</a>
+    <p> | </p>
+    <a href="#"> Collections</a>
+    <p> | </p>
+    <a href="#">Sanrio spotlight</a>
+    <p> | </p>
+    <a href="#">Games & Activities</a>
+    <p> | </p>
+    <a href="#">News</a>
+    <form>
+        <input type="text" placeholder="Filter by product name" #filter>
+        <button class="primary" type="button" (click)="filterResults(filter.value)">Search</button>
+    </form>
+</section>
+
+
+<section class="results">
+    <app-item *ngFor="let item of filteredProducts" [item] = "item"></app-item>
+</section>

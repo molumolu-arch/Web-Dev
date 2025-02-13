@@ -1,0 +1,28 @@
+<section class="listing">
+    <img class="listing-photo" [src]="item.image" alt="Photo of the item">
+    <h2 class="listing-heading">{{ item.name }}</h2>
+    <p class="listing-description">{{ item.description }}</p>
+    
+    <div class="rating">
+        <span *ngFor="let star of starsArray; let i = index">
+            <i class="fa" [ngClass]="i < item.rating ? 'fa-star' : 'fa-star-o'"></i>
+        </span>
+    </div>
+
+    <div class="share-buttons">
+
+        <a [href]="telegramShareUrl()" target="_blank">
+            <button class="telegram-button">
+                <img class="icon" src="/assets/tg.png" alt="Telegram">
+            </button>
+        </a>
+
+        <a [href]="whatsappShareUrl()" target="_blank">
+            <button class="whatsapp-button">
+                <img class="icon" src="/assets/wp.webp" alt="WhatsApp">
+            </button>
+        </a>
+    </div>
+    <br>
+    <a id="buy-button" [href]="item.link">Buy now!</a>
+</section>

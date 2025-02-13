@@ -1,0 +1,66 @@
+.listing {
+    background: var(--accent-color);
+    border-radius: 30px;
+    padding-bottom: 30px;
+  }
+  .listing-heading {
+    color: var(--primary-color);
+    padding: 10px 20px 0 20px;
+  }
+  .listing-photo {
+    height: 125px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+  }
+  .listing-description {
+    padding: 10px 20px 20px 20px;
+    font-size: 14px;
+  }
+  .listing-location::before {
+    content: url("/assets/location-pin.svg") / "";
+  }
+  
+  section.listing a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  section.listing a::after {
+    content: "\203A";
+    margin-left: 5px;
+  }
+
+  .rating {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    font-size: 20px;
+    color: #FFD700; 
+}
+
+.share-buttons {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px;  
+}
+
+.telegram-button, .whatsapp-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px; 
+}
+
+.telegram-button img {
+    width: 25px; 
+    height: 25px;
+    display: block;
+}
+.whatsapp-button img {
+    width: 30px; 
+    height: 30px;
+    display: block;
+}
+

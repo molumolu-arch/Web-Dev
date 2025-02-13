@@ -1,0 +1,84 @@
+{
+    "products": [
+        {
+            "id": 0,
+            "image": "/assets/product10.jpg",
+            "name": "Cinnamoroll Plushie 70cm",
+            "description": "A soft and huggable Cinnamoroll plush toy. Made from high-quality plush material, measuring 70cm. A must-have for Sanrio fans.",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/mjagkaja-igrushka-sanrio-kawaii-cinnamoroll-vysota-70-sm-belyi-120599922/?m=4669008&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_10k-30k&gad_source=1&gclid=CjwKCAiAzba9BhBhEiwA7glbaoJSDjSXmUdQP-5Ppshb_rRcA-EEKluFmRvR1oyqonZ6ZpnziE9njBoCncgQAvD_BwE"
+        },
+        {
+            "id": 1,
+            "image": "/assets/product20.jpeg",
+            "name": "Kuromi Pillow 100cm",
+            "description": "A soft and cozy Kuromi-themed pillow. Made from plush material, measuring 100cm. A perfect addition for comfort and decoration.",
+            "rating": 0,
+            "link": "https://kaspi.kz/shop/p/podushka-igrushka-kukuromi-vysota-100-sm-mul-tikolor-132551804/?m=30132688&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_10k-30k&gad_source=1&gclid=CjwKCAiAzba9BhBhEiwA7glbahD9JOildtwLbbouaJ1Q_Rjner01enESOQxkBgZaYO6YcjGsbsbv8BoCch4QAvD_BwE"
+        },
+        {
+            "id": 2,
+            "image": "/assets/product30.jpeg",
+            "name": "Sanrio Stationery Set",
+            "description": "A complete Sanrio-themed stationery set. Includes notebooks, stickers, pens, and more. Perfect for students and collectors alike.",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/sanrio-kantseljarskii-nabor-sanrio-suvenirnyi-nabor-131402462/?c=750000000"
+        },
+        {
+            "id": 3,
+            "image": "/assets/product40.jpg",
+            "name": "Kuromi Slippers Purple",
+            "description": "Stylish and comfortable Kuromi slippers. Made from soft plush, perfect for indoor use. Available in a beautiful purple color.",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/tapochki-kuromi-567988947-fioletovyi-33-122477438/?c=750000000"
+        },
+        {
+            "id": 4,
+            "image": "/assets/product50.jpg",
+            "name": "Kuromi Quartz Watch Steel",
+            "description": "A sleek Kuromi quartz watch. Made of durable stainless steel, suitable for daily wear. A great gift for Sanrio enthusiasts.",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/kvartsevye-kuromi-kuromi-stal--117109608/?c=750000000"
+        },
+        {
+            "id": 5,
+            "image": "/assets/product60.jpg",
+            "name": "Kuromi Keychain",
+            "description": "A cute Kuromi keychain for fans. Made of quality plastic and rubber, perfect for bags, keys, or as a collectible accessory.",
+            "rating": 4.0,
+            "link": "https://kaspi.kz/shop/p/brelok-kuromi-51214831-plastik-rezina-1-sht-117168550/?c=750000000"
+        },
+        {
+            "id": 6,
+            "image": "/assets/product70.jpg",
+            "name": "Cinnamoroll Sticker Box",
+            "description": "A set of adorable Cinnamoroll stickers. Ideal for decorating notebooks, laptops, and more. A great choice for Sanrio lovers.",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/korobka-cinnamoroll-16810029-306614756-60-117716132/?c=750000000"
+        },
+        {
+            "id": 7,
+            "image": "/assets/product80.jpg",
+            "name": "Plushie Pompompurin",
+            "description": "A soft and cuddly Pompompurin plushie. Features an adorable outfit, making it a must-have for collectors and Sanrio fans.",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/mjagkaja-igrushka-hello-kitty-pompompurin-japonskaja-s-odezhdoi-vysota-20-sm-zheltyi-114870874/?c=750000000"
+        },
+        {
+            "id": 8,
+            "image": "/assets/product90.jpg",
+            "name": "Pompompurin Constructor",
+            "description": "A fun 300-piece Pompompurin construction set. Great for creative play and display. A wonderful collectible for puzzle lovers.",
+            "rating": 0,
+            "link": "https://kaspi.kz/shop/p/hello-kitty-pompompurin-15900-detalei-300-sht-122644548/?c=750000000"
+        },
+        {
+            "id": 9,
+            "image": "/assets/product100.jpg",
+            "name": "Hello Kitty Pillow Toy",
+            "description": "A charming Hello Kitty pillow toy. Soft, huggable, and 50cm in size. A perfect combination of comfort and decoration. Perfect present for valentine!",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/podushka-igrushka-hello-kitty-vysota-50-sm-belyi-rozovyi-107449696/?c=750000000"
+        }
+    ]
+}
