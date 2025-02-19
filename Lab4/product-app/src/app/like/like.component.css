@@ -1,0 +1,15 @@
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+img {
+    height: 20px;
+}
+
+.likes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,25 @@
+.list {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 7px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    margin-top: 20px;
+    justify-content: space-around;
+    background-color: lightblue;
+    padding: 50px;
+  }
+
+  .list img {
+    height: 200px;
+    height:100px;
+    margin: 30px;
+  }
+  
+  .nav-bar {
+    display:flex;
+    gap: 20px;
+    flex-direction: row;
+    margin: auto auto auto auto;
+    justify-content: center; 
+    align-items: center; 
+  }

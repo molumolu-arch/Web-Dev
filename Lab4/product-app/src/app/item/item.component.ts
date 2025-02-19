@@ -2,10 +2,11 @@ import { Component, Input } from '@angular/core';
 import { Item } from '../item';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { LikeComponent } from '../like/like.component';
 
 @Component({
   selector: 'app-item',
-  imports: [RouterModule, CommonModule],
+  imports: [RouterModule, CommonModule, LikeComponent],
   templateUrl: './item.component.html',
   styleUrl: './item.component.css'
 })

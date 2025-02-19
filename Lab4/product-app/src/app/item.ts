@@ -6,5 +6,6 @@ export interface Item {
     description: string;
     rating: number;
     link: string;
+    character: string;
 
 }

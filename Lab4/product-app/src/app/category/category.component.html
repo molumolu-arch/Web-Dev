@@ -1,0 +1,7 @@
+<section class="nav-bar">
+<app-navigation-bar></app-navigation-bar>
+</section>
+<section class="list">
+    <a *ngFor="let item of categories" [routerLink]="['/categories', item.name]"><img [src]="item.image">
+        </a>
+</section>

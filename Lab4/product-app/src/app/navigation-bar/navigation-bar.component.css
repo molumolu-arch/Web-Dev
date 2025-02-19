@@ -1,0 +1,17 @@
+.nav-bar {
+  
+    display:flex;
+    gap: 10px;
+    flex-direction: row;
+    margin: 20px 0px auto;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+  p {
+    color: #0066b3;
+  }
+  a {
+     text-decoration: none;
+     color: #0066b3;
+  }

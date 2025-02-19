@@ -12,14 +12,15 @@ export class ProductsService {
 
   async getAllProducts(): Promise<Item[]> {
     const data = await fetch(this.url);
-    console.log("fdkfjskfj");
     return await data.json() ?? [];
   }
 
-  async getProductById( id:Number ):Promise<Item | undefined> {
+  async getProductsByCharacter( character:String ):Promise<Item[]> {
     
-     const data = await fetch(`${this.url}/${id}`);
-     return await data.json() ?? {};
+    const response = await fetch(`${this.url}?character=${character}`);
+    const data = await response.json();
+    console.log(data);
+    return data ?? [];
   }
 
 }

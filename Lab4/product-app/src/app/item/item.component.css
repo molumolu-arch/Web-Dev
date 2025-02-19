@@ -64,3 +64,8 @@
     display: block;
 }
 
+.interaction {
+  display: flex;
+  flex-direction: row;
+  gap:30%;
+}
