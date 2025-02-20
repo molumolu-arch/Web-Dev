@@ -89,6 +89,157 @@
             "rating": 5.0,
             "link": "https://kaspi.kz/shop/p/podushka-igrushka-hello-kitty-vysota-50-sm-belyi-rozovyi-107449696/?c=750000000",
             "character": "hellokitty"
-        }
+        },
+        {
+            "id": 10,
+            "image": "/assets/bagpack.jpg",
+            "name": "Kuromi Backpack",
+            "description": "Kuromi backpack, textile, lilac color. Compact and stylish, featuring a spacious main compartment and comfortable straps. Perfect for everyday use.",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/rjukzak-kuromi-111987-tekstil-sirenevyi-117870448/?c=750000000",
+            "character": "kuromi"
+        },
+        {
+            "id": 11,
+            "image": "/assets/cin.jpg",
+            "name": "Cinammonroll Plushie",
+            "description": "Cinnamoroll plushie soft, cuddly, and adorable! Made from high-quality plush material, featuring Cinnamoroll’s signature floppy ears and sweet expression. Perfect for hugs, decoration, or as a gift for any Sanrio fan.",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/mjagkaja-igrushka-cinnamoroll-vysota-20-sm-belyi-130659932/?c=750000000",
+            "character": "cinamonroll"
+        },
+        {
+            "id": 12,
+            "image": "/assets/stickers.jpg",
+            "name": "Cinammonroll Stickers",
+            "description": "Cinnamoroll stickers cute and colorful! Featuring adorable designs of Cinnamoroll in various poses, perfect for decorating laptops, notebooks, phone cases, and more. A must-have for any Sanrio fan!",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/sticker-universe-cinnamoroll-0431-28-sht--109950716/?c=750000000",
+            "character": "cinamonroll"
+        },
+        {
+            "id": 13,
+            "image": "/assets/squish.jpg",
+            "name": "Pompompurin squish toy",
+            "description": "Pompompurin squish toy – soft, squeezable, and super cute! Made from slow-rising, high-quality material, featuring Pompompurin’s signature beret and cheerful expression. Perfect for stress relief, decoration, or as a fun gift for Sanrio fans!",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/igrushka-mjalka-30261992-975469489-zheltyi-122189329/?c=750000000",
+            "character": "pompompurin"
+        },
+        {
+            "id": 14,
+            "image": "/assets/cup.jpg",
+            "name": "Pompompurin drinking cup",
+            "description": "Pompompurin drinking cup adorable and practical! Features a cute Pompompurin design, made from durable material, perfect for both hot and cold drinks. A great addition to any Sanrio fans collection!",
+            "rating": 0,
+            "link": "https://kaspi.kz/shop/p/stakan-pompompurin-980023144-plastik-117666655/?c=750000000",
+            "character": "pompompurin"
+        },
+        {
+            "id": 15,
+            "image": "/assets/set.jpg",
+            "name": "Pompompurin stationary set",
+            "description": "Pompompurin stationery set cute and functional! Includes pens, notebooks, stickers, and more, all featuring adorable Pompompurin designs. Perfect for school, work, or creative journaling. A must-have for any Sanrio fan!",
+            "rating": 0,
+            "link": "https://kaspi.kz/shop/p/pompompurin-detskii-nabor-119608596/?c=750000000",
+            "character": "pompompurin"
+        },
+        {
+            "id": 16,
+            "image": "/assets/brush.jpg",
+            "name": "Hello Kitty hair brush",
+            "description": "Hello Kitty hairbrush  cute and stylish! Features an ergonomic design with soft bristles for gentle detangling. Adorned with an adorable Hello Kitty design, perfect for everyday hair care and Sanrio fans of all ages!",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/massazhnaja-rascheska-hello-kitty-09-377-6-8-let-115744765/?c=750000000",
+            "character": "hellokitty"
+        },
+        {
+            "id": 17,
+            "image": "/assets/ears.jpg",
+            "name": "Hello Kitty ear Mufflers",
+            "description": "Hello Kitty ear mufflers cozy and adorable! Featuring a soft, plush design with cute Hello Kitty details, they provide warmth and comfort during cold weather. Perfect for Sanrio fans who want to stay stylish and snug!",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/naushniki-hello-kitty-01-36-razmer-universal-nyi-belyi-115816552/?c=750000000",
+            "character": "hellokitty"
+        }, 
+        {
+            "id": 18,
+            "image": "/assets/kitty.jpg",
+            "name": "Hello Kitty Plushie",
+            "description": "Hello Kitty plush toy, 30 cm tall, multicolor. Soft and huggable, featuring Hello Kitty’s iconic bow and sweet expression. A perfect gift or collectible for Sanrio fans of all ages!",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/mjagkaja-igrushka-hello-kitty-kitty-vysota-30-sm-mul-tikolor-107746457/?c=750000000",
+            "character": "hellokitty"
+        },
+        {
+            "id": 19,
+            "image": "/assets/crab.jpg",
+            "name": "Hello Kitty hair claw",
+            "description": "Hello Kitty hair claw cute and practical! Features a sturdy grip with an adorable Hello Kitty design, perfect for securing hair stylishly and comfortably. A must-have accessory for Sanrio fans!",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/hello-kitty-zakolka-krab-1-sht-122964490/?c=750000000",
+            "character": "hellokitty"
+        },
+        {
+            "id": 20,
+            "image": "/assets/mug.jpg",
+            "name": "Hello Kitty Mug",
+            "description": "Hello Kitty mug cute and stylish! Features an adorable Hello Kitty design, made from high-quality material, perfect for hot and cold drinks. A great addition to any Sanrio fans collection!",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/kruzhka-hello-kitty-shkc0004-350-keramika-119242007/?c=750000000",
+            "character": "hellokitty"
+        },
+        {
+            "id": 21,
+            "image": "/assets/p1.jpg",
+            "name": "Pochacco constructor",
+            "description": "Pochacco constructor – fun and collectible! A buildable set featuring the adorable Pochacco character, perfect for Sanrio fans and creative builders. Made from high-quality materials, great for display or play!",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/bricks-pochacco-q5034-detalei-185-sht-132102009/?c=750000000",
+            "character": "pochacco"
+        },
+        {
+            "id": 22,
+            "image": "/assets/p2.jpg",
+            "name": "Pochacco secret toy kit",
+            "description": "Pochacco secret toy kit – a fun mystery surprise! Each kit includes a hidden Pochacco-themed toy or accessory, perfect for Sanrio fans who love collectibles. Cute, exciting, and great for gifting!",
+            "rating": 5.0,
+            "link": "https://kaspi.kz/shop/p/sanrio-pochacco-pochakko-sekretnyi-boks-detskii-nabor-117850637/?c=750000000",
+            "character": "pochacco"
+        },
+        {
+            
+                "id": 23,
+                "image": "/assets/p3.jpg",
+                "name": "Pochacco Amusement park",
+                "description": "Pochacco amusement park playset – fun and adorable! Features a colorful theme park design with Pochacco and friends, including rides and accessories. Perfect for Sanrio fans to create magical playtime adventures!",
+                "rating": 0,
+                "link": "https://kaspi.kz/shop/p/amusement-park-pochaggo-12000-d-detalei-255-sht-133556891/?c=750000000",
+                "character": "pochacco"
+            
+        },
+        {
+            
+            "id": 24,
+            "image": "/assets/p4.jpg",
+            "name": "Pochacco Damo Egg",
+            "description": "Pochacco Damo Egg – a fun and creative building set! This constructor comes in an egg-shaped package and features Pochacco-themed blocks to assemble. Perfect for Sanrio fans who love building and collecting cute figures!",
+            "rating": 0,
+            "link": "https://kaspi.kz/shop/p/pochacco-sanrio-damo-egg-building-block-30133764-991468772-detalei-168-sht-132205481/?c=750000000",
+            "character": "pochacco"
+        
+    },
+    {
+            
+        "id": 25,
+        "image": "/assets/p5.jpg",
+        "name": "Top Toy Pochacco",
+        "description": "A fun and detailed building set with **300 pieces**! This constructor allows you to assemble an adorable Pochacco figure, perfect for Sanrio fans and collectors. Made from high-quality materials for a sturdy and enjoyable building experience!",
+        "rating": 0,
+        "link": "https://kaspi.kz/shop/p/toptoy-pochacco-ck00010-detalei-300-sht-117112523/?c=750000000",
+        "character": "pochacco"
+    
+}
+        
     ]
 }
