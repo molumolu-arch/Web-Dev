@@ -11,7 +11,9 @@ export class ProductsService {
   constructor() { }
 
   async getAllProducts(): Promise<Item[]> {
+   
     const data = await fetch(this.url);
+    console.log(data);
     return await data.json() ?? [];
   }
 
@@ -22,5 +24,10 @@ export class ProductsService {
     console.log(data);
     return data ?? [];
   }
+
+  removeItemById(itemId: number, items: Item[]): Item[] {
+        return items.filter(item => item.id !== itemId);
+    }
+  
 
 }

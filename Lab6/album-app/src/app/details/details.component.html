@@ -1,0 +1,9 @@
+<section>
+  <h1>{{album?.title}}</h1>
+  <p>id: {{album?.id}}</p>
+  <p>userId: {{album?.userId}}</p>
+</section>
+
+<a href="/albums">Return</a>
+<br>
+<a [routerLink]="['/albums', album?.id, 'photos']">Photos</a>

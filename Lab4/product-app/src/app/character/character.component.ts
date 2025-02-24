@@ -27,4 +27,9 @@ export class CharacterComponent {
     console.log(this.itemList);
   }
 
+  deleteItem(id: number): void {
+    this.itemList = this.itemList.filter(item => item.id !== id);
+  }
+
+
 }

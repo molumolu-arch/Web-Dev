@@ -36,5 +36,9 @@ export class ProductComponent {
 
   }
 
+  deleteItem(id: number): void {
+    this.filteredProducts = this.filteredProducts.filter(item => item.id !== id);
+  }
+
 
 }

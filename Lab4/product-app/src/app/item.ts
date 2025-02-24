@@ -7,5 +7,4 @@ export interface Item {
     rating: number;
     link: string;
     character: string;
-
 }
