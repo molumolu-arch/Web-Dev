@@ -40,5 +40,4 @@ export class ProductComponent {
     this.filteredProducts = this.filteredProducts.filter(item => item.id !== id);
   }
 
-
 }

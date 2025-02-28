@@ -1,4 +1,7 @@
 <section class="results">
-    <app-album *ngFor="let album of album_list" [album]="album"></app-album>   
+    <app-album *ngFor="let album of album_list"  
+    (delete)="onDelete($event)"
+    [album]="album"></app-album>   
+   
 </section>
 

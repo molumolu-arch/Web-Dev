@@ -1,5 +1,5 @@
 <section>
-  <h1>{{album?.title}}</h1>
+  <h1 id="title">{{album?.title}}</h1>
   <p>id: {{album?.id}}</p>
   <p>userId: {{album?.userId}}</p>
 </section>
@@ -7,3 +7,7 @@
 <a href="/albums">Return</a>
 <br>
 <a [routerLink]="['/albums', album?.id, 'photos']">Photos</a>
+<br>
+<input placeholder="new name" id="newname">
+<br>
+<button (click)="renameItem()">rename</button>
