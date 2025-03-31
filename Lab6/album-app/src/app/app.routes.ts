@@ -4,6 +4,7 @@ import { AboutComponent } from "./about/about.component";
 import { AlbumsComponent } from "./albums/albums.component";
 import { DetailsComponent } from "./details/details.component";
 import { PhotosComponent } from "./photos/photos.component";
+import { SpaceLaunchesComponent } from "./space-launches/space-launches.component";
 
 export const routes: Routes = [
     {
@@ -35,6 +36,10 @@ export const routes: Routes = [
         path: 'albums/:id/photos',
         component: PhotosComponent,
         title: 'Photos Page'
+    },{
+        path: 'launches',
+        component: SpaceLaunchesComponent,
+        title: 'Launches'
     }
 
     

@@ -1,3 +1,3 @@
-v = int(input())
-t = int(input())
-print((v * t) % 109)
+N = int(input())
+K = int(input())
+print(K % N)
